@@ -9,7 +9,7 @@
 }
 
 .frame-1 {
-    background-image: url(img/bg-putih.png);
+    background-image: url(img/bg-putih.webp);
     background-size: cover;
 }
 
@@ -18,24 +18,24 @@
 }
 
 .frame-3{
-    background-image: url(img/bg-putih-2.png);
+    background-image: url(img/bg-putih-2.webp);
     background-size: cover;
 }
 
 .frame-red{
-    background-image: url(img/frame-red.png);
+    background-image: url(img/frame-red.webp);
     background-size: cover;
     padding-bottom: 50px;
 }
 
 .frame-red-2{
-    background-image: url(img/frame-red-2.png);
+    background-image: url(img/frame-red-2.webp);
     background-size: cover;
     padding-bottom: 50px;
 }
 
 .frame-red-3{
-    background-image: url(img/frame-red-3.png);
+    background-image: url(img/frame-red-3.webp);
     background-size: cover;
     padding-bottom: 50px;
 }

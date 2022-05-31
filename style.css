@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.frame-1 {
+    background-image: url(img/bg-putih.png);
+    background-size: cover;
+}
+
+.frame-2{
+    background-color: #FAFAFA;
+}
+
+.frame-3{
+    background-image: url(img/bg-putih-2.png);
+    background-size: cover;
+}
+
+.frame-red{
+    background-image: url(img/frame-red.png);
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.frame-red-2{
+    background-image: url(img/frame-red-2.png);
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.frame-red-3{
+    background-image: url(img/frame-red-3.png);
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.outer-container {
+    position: relative;
+}
+
+.down-arrow {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    max-width: 60px;
+}
+
+
+/* frame 1 */
+
+.logo-dokter-mobil {
+    width: 100%;
+    max-width: 260px;
+    background-color: white;
+    padding: 1.5%;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.header-title-sa1{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 84px;
+    line-height: 130%;
+    padding-top: 5%;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    background: linear-gradient(180deg, #840000 0%, #E20000 29.17%, #E20000 70.31%, #840000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.banner{
+   padding-top: 2%;
+   width: 100%;
+   background-size: cover;
+}
+
+/* frame 2 */
+
+    .header-title-sa2 {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 51px;
+    line-height: 130%;
+    /* or 91px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    background: linear-gradient(180deg, #FF0000 14.06%, #C62323 39.89%, #FF0000 68.23%, #C62323 77.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-sa2{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 130%;
+    /* or 39px */
+    width: 70%;
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+/* frame 3 */
+
+.header-title-sa3{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 130%;
+    /* or 109px */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #FAFAFA;
+
+}
+
+.title-sa3{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+    /* or 52px */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+/* frame 4 */
+
+.header-title-sa4{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 84px;
+    line-height: 130%;
+    /* or 109px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    background: linear-gradient(180deg, #969696 0%, #FFFFFF 26.56%, #969696 49.76%, #969696 59.37%, #FFFFFF 76.56%, #969696 97.4%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sub-header-sa4{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 130%;
+    /* or 65px */
+    width: 100%;
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.title-sa4{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 84px;
+    line-height: 130%;
+    /* or 109px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    border: 4px solid #FAFAFA;
+}
+
+.sub-title-sa4{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 84px;
+    line-height: 130%;
+    /* or 109px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    border: 4px solid #FAFAFA;
+}
+
+/* frame 5 */
+
+.header-title-sa5{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 130%;
+    /* identical to box height, or 104px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #EB1C23;
+
+    text-shadow: 2px 8px 9px rgba(0, 0, 0, 0.15);
+}
+
+.header-card{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 51px;
+    line-height: 130%;
+    /* or 66px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #EB1C23;
+
+    text-shadow: 2px 8px 9px rgba(0, 0, 0, 0.15);
+}
+
+.card-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 135.5%;
+    /* or 43px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+/* frame 6 */
+
+.header-title-sa6{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 130%;
+    /* or 125px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #fafafa;
+}
+
+.sub-header-sa6{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 130%;
+    /* or 83px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #FAFAFA;
+}
+
+.footer-sa6{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 75px;
+    line-height: 130%;
+    /* or 97px */
+
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #fafafa;
+    text-shadow: 5px 6px 15px rgba(0, 0, 0, 0.35);
+}
+
+@media only screen and (max-width: 600px) {
+
+.logo-dokter-mobil{
+    width: 100%;
+    max-width: 150px;
+    border-radius: 0 0 7px 7px;
+}
+
+.header-title-sa1{
+    font-size: 10vw;
+}
+
+.header-title-sa2{
+    font-size: 6vw;
+}
+
+.title-sa2{
+    font-size: 5vw;
+    width: 100%;
+}
+
+.header-title-sa3{
+    font-size: 8vw;
+    text-align: center;
+}
+
+.title-sa3{
+    font-size: 5vw;
+    text-align: center;
+}
+
+.header-title-sa4{
+    font-size: 8vw;
+}
+
+.sub-header-sa4{
+    font-size: 7vw;
+    width: 100%;
+    text-align: center;
+}
+
+
+.header-title-sa5{
+    font-size: 10vw;
+}
+
+.header-card{
+    font-size: 8vw;
+}
+
+.card-text{
+    font-size: 5vw;
+    width: 100%;
+}
+
+.header-title-sa6{
+    font-size: 8vw;
+    -webkit-text-stroke-width: 2px;
+}
+
+.sub-header-sa6{
+    font-size: 7vw;
+}
+
+.footer-sa6{
+    font-size: 8vw;
+    -webkit-text-stroke-width: 2px;
+}
+
+.down-arrow {
+    max-width: 25px;
+    bottom: 10px;
+}
+
+}
